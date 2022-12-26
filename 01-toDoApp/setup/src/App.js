@@ -31,6 +31,7 @@ function App() {
 
   return (
     <div className="todo-app">
+      <section className="box">
       <h1>ToDoList App</h1>
       <input
       type="text"
@@ -49,6 +50,7 @@ function App() {
          )
        })}
       </ul>
+      </section>
 
       {/* <TodoForm/> */}
     </div>
